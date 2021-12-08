@@ -1,0 +1,78 @@
+.tituloGift {
+    background-image: linear-gradient(to left, #6a2d83, #783890, #86439d, #944eaa, #a259b7, #af69c1, #bd78cc, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);   color: nth($colores,1);
+    font-size: 60px;
+    font-family: $tipografiaRaleway;
+    text-align: center;
+    font-weight: bolder;
+    padding: 30px 30px;
+    width: 100%;
+}
+.regalo {
+    font-size: 40px;
+    font-family: $tipografiaZen;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: nth($colores,4);
+}
+.imgGift {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.producto {
+    padding-top: 20px;
+  
+}
+.titulo {
+    font-size: 25px;
+    font-family: $tipografiaZen;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    color: nth($colores,4);
+}
+
+.infoGift {
+ font-family: $tipografiaZen;
+ font-style: italic;
+ font-size: 20px;
+ text-align: center;
+ color: nth($colores,4);
+}
+.pago {
+ font-family: $tipografiaZen;
+ font-style: italic;
+ font-size: 20px;
+ text-align: center;
+ font-weight: bolder;
+ padding-bottom: 30px;
+ color: nth($colores,4);
+}
+.tituloSquad {
+    font-size: 40px;
+    font-family:$tipografiaRaleway;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    color: nth($colores,4);
+}
+.container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.squad {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.stay {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

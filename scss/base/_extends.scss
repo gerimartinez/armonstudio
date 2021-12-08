@@ -1,0 +1,28 @@
+%botonVer {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    color: nth($colores, 4);
+    transition: all 0.5s;
+
+}
+
+%display {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+%volverIndex {
+    font-size: 20px;
+    color: nth($colores, 2);
+    font-family: "Zen Old Mincho", serif;
+    padding: 50px 50px;
+    margin: 30px; 
+ }
+
+ %botones {
+     color: nth($colores,4);
+     font-weight: bolder;
+     transition: all 0.5s;
+ }
+

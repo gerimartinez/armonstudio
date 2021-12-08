@@ -1,0 +1,96 @@
+.prod {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px 20px;
+    margin: 1px;
+    padding-bottom: 30px;
+
+}
+.tituloProductos {
+ text-align: center;
+ margin-bottom: 25px;
+ background-image: linear-gradient(to left, #6a2d83, #783890, #86439d, #944eaa, #a259b7, #af69c1, #bd78cc, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);  color: nth($colores,1);
+ font-size: 50px;
+ font-family: $tipografiaRaleway;
+ font-weight: bolder;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+
+.seccionUno, .seccionDos, 
+.seccionTres, .seccionCuatro, .seccionCinco,
+.seccionSeis, .seccionSiete, .seccionOcho,
+.seccionNueve {
+    border: 1px solid nth($colores,7);
+    transition: all 0.5s;
+    box-shadow: nth($colores,7) 1px 10px 12px;
+    justify-content: center;
+    border-radius: 0.25rem;
+
+}
+
+.imgProductos:hover {
+    opacity: 0.5;
+}
+
+.tip {
+    color: nth($colores,4);
+    background-color: nth($colores,6);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.modelosProductos {
+    font-size: 20px;
+    color: nth($colores,4);  
+    font-family: $tipografiaRaleway;
+    text-align: center;
+    font-weight: bolder;
+    transition: all 1s;
+}
+
+.modelosProductos:hover {
+    transform: scale(1.5);
+    color: nth($colores,2);
+}
+
+.imgProductos {
+    width: 400px;
+    padding: 10px 10px;
+}
+
+.precio {
+    font-size: 20px;
+    font-family: $tipografiaZen;
+    font-weight: bolder;
+    color: nth($colores,4);
+    text-align: center;
+    
+}
+
+.verMas {
+    font-size: 15px;
+    font-family: $tipografiaRaleway;
+    color: nth($colores,4);
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.verMas:hover {
+    @extend %botones;
+}
+
+.volverAHome {
+    font-size: 20px;
+    color: nth($colores,3);
+    font-family: $tipografiaZen;
+    padding: 50px 50px;
+    margin: 30px;
+    background-color: nth($colores,6);
+}

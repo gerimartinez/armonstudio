@@ -1,0 +1,58 @@
+.tituloContacto {
+    text-align: center;
+  margin-bottom: 25px;
+  background-image: linear-gradient(to left, #6a2d83, #783890, #86439d, #944eaa, #a259b7, #af69c1, #bd78cc, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);   color: nth($colores,1);
+ font-size: 50px;
+ font-family: $tipografiaRaleway;
+ font-weight: bolder;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+.subtitulo {
+    font-family: $tipografiaZen;
+    color: nth($colores,4);
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.containerContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+.armon3d {
+    width: 70%;
+}
+.texto {
+    font-size: 1.2rem;
+    font-family: $tipografiaZen;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: nth($colores,4);
+     
+}
+
+.containerForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.formulario {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: nth($colores,3);
+    color: nth($colores,1);
+    font-family: $tipografiaZen;
+    font-size: 20px;
+}

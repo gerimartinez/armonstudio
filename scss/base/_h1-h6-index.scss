@@ -1,0 +1,54 @@
+@import "base/variables";
+@import "base/mixins";
+h1 {
+    background-image: linear-gradient(to left, #6a2d83, #783890, #86439d, #944eaa, #a259b7, #af69c1, #bd78cc, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);  color: nth($colores,1);
+    font-family: $tipografiaRaleway;
+    text-align: center;
+    font-weight: bolder;
+    @include titulosSize(60px,50px 30px);
+}
+
+h3 {
+    font-size: 40px;
+    color: nth($colores, 4);
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: $tipografiaZen;
+    font-weight: bolder;  
+    padding: 20px 20px;
+}
+
+h4 {
+    font-size: 30px;
+    color: nth($colores,7);
+    background-color: nth($colores,9);
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: $tipografiaZen;  
+    font-weight: bolder;
+    display: flex;
+    justify-content: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h5 {
+    font-size: 30px;
+    color: nth($colores, 3);
+    font-family: $tipografiaZen;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+h6 {
+    background-color: nth($colores, 6); 
+    color: nth($colores, 3);
+    font-size: 35px;
+    font-family: $tipografiaZen;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px
+}

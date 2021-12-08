@@ -1,0 +1,137 @@
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    
+}
+.parrafoCarousel {
+    font-family: $tipografiaZen;
+    color: nth($colores,5);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    justify-content: start;
+}
+
+.modeloGrow {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: nth($colores,5);
+    text-align: center;
+    font-family: $tipografiaZen;
+    transition: all 1s;
+}
+.modeloGrow:hover {
+    color: nth($colores,2);
+    font-style: bolder;
+}
+
+.masVendidos {
+    font-size: 40px;
+    color: nth($colores,4);
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: $tipografiaZen;
+    font-weight: bolder;  
+    padding: 20px 20px;
+}
+
+.modelosContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 1px solid nth($colores,3);
+    padding: 30px 30px;
+    
+}
+
+.est, .mar, .dist {
+    width: 250px;
+    transition: all 1s;
+}
+.dist:hover {
+    transform: scale(1.5);
+}
+.mar:hover {
+    transform: scale(1.5);
+}
+.est:hover {
+    transform: scale(1.5)
+}
+
+.ver {
+    font-size: 15px;
+    color: nth($colores,4);
+    font-family: $tipografiaZen;
+    text-align: center;
+}
+.historia {
+    background-color: nth($colores,7);
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+.armonContainer {
+    background-image: linear-gradient(to left, #cb9cdd, #c792d9, #c389d6, #bf7fd2, #bb75ce, #c07bd1, #c582d3, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);}
+
+.queEsArmon {
+    font-size: 20px;
+    color: nth($colores,7);
+    font-family: $tipografiaRaleway;
+    text-align: start;   
+    display: flex;
+    justify-content: start;
+    transition: all 1s;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.martiImg {
+    width: 90%;
+}
+.martina {
+    display: flex;
+    justify-content: start;
+    font-style: italic;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.queEsArmon:hover {
+    border-radius: 50px;
+    transform: scale(1.5);
+    color: nth($colores,1);
+    background-color: none;
+}
+.printContainer {
+    padding: 20px 20px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.imgPrint {
+    text-align: center;
+    width: 300px;
+    
+}
+.piliPrint {
+    width: 900px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.verModelo {
+    font-size: 17px;
+    color: nth($colores,4); 
+    text-align: center; 
+    padding-top: 20px;
+    vertical-align: middle;
+    padding-bottom: 50px; 
+    transition: all 1s;
+}
+.verModelo:hover {
+    @extend %botones;
+    
+}

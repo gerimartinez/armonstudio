@@ -1,0 +1,54 @@
+
+footer {
+    background-color: nth($colores, 6);
+    text-align: center;
+    list-style-type: none;
+    nav {
+        ul {
+            list-style-type: none;
+            li {
+                color: nth($colores, 3);
+                a{
+                 font-size: 20px;
+                 color: nth($colores, 3);
+                 font-family: $tipografiaZen;
+                 display: inline-block;
+                 text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.iconsSocial {
+    width: 15%;
+    background-color: nth($colores, 6);
+}
+
+.followUs {
+    color: nth($colores, 4);
+    font-weight: bolder;
+}
+
+.info, .infoFooter {
+    color: nth($colores, 3);
+    font-weight: initial;
+    list-style-type: none;
+}
+.stay {
+    background-color: nth($colores, 6); 
+    color: nth($colores, 3);
+    font-size: 35px;
+    font-family: $tipografiaZen;
+    font-style: oblique;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 30px
+}
+
+a:hover {
+    color: nth($colores, 2);
+    font-weight: bolder;
+    transition: all 0.5s;
+
+}
