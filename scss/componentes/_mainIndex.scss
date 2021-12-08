@@ -2,6 +2,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
+    height: 1rem;
     
 }
 .parrafoCarousel {
@@ -41,6 +42,7 @@
     justify-content: center;
     border-radius: 1px solid nth($colores,3);
     padding: 30px 30px;
+    height: 1rem;
     
 }
 
@@ -71,7 +73,9 @@
     justify-content: center;
 }
 .armonContainer {
-    background-image: linear-gradient(to left, #cb9cdd, #c792d9, #c389d6, #bf7fd2, #bb75ce, #c07bd1, #c582d3, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);}
+    background-image: linear-gradient(to left, #cb9cdd, #c792d9, #c389d6, #bf7fd2, #bb75ce, #c07bd1, #c582d3, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);
+    height: 1rem;
+}
 
 .queEsArmon {
     font-size: 20px;
