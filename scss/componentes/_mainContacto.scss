@@ -39,21 +39,11 @@
      
 }
 
-.containerForm {
+.formContact {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.formulario {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: nth($colores,3);
-    color: nth($colores,1);
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     font-family: $tipografiaZen;
-    font-size: 20px;
 }
