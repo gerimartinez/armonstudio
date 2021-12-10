@@ -47,3 +47,6 @@
     margin-right: 3rem;
     font-family: $tipografiaZen;
 }
+.btn-primary {
+    color: nth($colores, 6);
+}
