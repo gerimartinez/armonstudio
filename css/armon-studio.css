@@ -10,8 +10,7 @@ h1 {
   text-align: center;
   font-weight: bolder;
   font-size: 60px;
-  padding: 50px 30px;
-  height: 2rem; }
+  padding: 50px 30px; }
 
 h3 {
   font-size: 40px;
@@ -21,7 +20,7 @@ h3 {
   font-family: "Zen Old Mincho", serif;
   font-weight: bolder;
   padding: 20px 20px;
-  height: 1rem; }
+ }
 
 h4 {
   font-size: 30px;
@@ -35,7 +34,7 @@ h4 {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 1rem; }
+   }
 
 h5 {
   font-size: 30px;
@@ -45,7 +44,7 @@ h5 {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  height: 1rem; }
+   }
 
 h6 {
   background-color: #f9f3fc;
@@ -56,13 +55,13 @@ h6 {
   font-weight: bolder;
   text-align: center;
   padding-top: 30px;
-  height: 1rem; }
+ }
 
 footer {
   background-color: #f9f3fc;
   text-align: center;
   list-style-type: none;
-  height: 1rem; }
+  }
   footer nav ul {
     list-style-type: none; }
     footer nav ul li {
@@ -106,7 +105,7 @@ a:hover {
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
-  height: 1rem; }
+ }
 
 .parrafoCarousel {
   font-family: "Zen Old Mincho", serif;
@@ -171,7 +170,7 @@ a:hover {
 
 .armonContainer {
   background-image: linear-gradient(to left, #cb9cdd, #c792d9, #c389d6, #bf7fd2, #bb75ce, #c07bd1, #c582d3, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);
-  height: 1rem; }
+   }
 
 .queEsArmon {
   font-size: 20px;
@@ -206,7 +205,7 @@ a:hover {
   margin: 1rem;
   display: flex;
   justify-content: center;
-  height: 1rem; }
+   }
 
 .imgPrint {
   text-align: center;
@@ -232,7 +231,7 @@ a:hover {
 
 header {
   background-color: #f9f3fc;
-  height: 2rem; }
+   }
 
 .bg-geri {
   background-color: #f9f3fc; }
@@ -263,7 +262,7 @@ body {
   font-weight: bolder;
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 1rem; }
+  }
 
 .seccionUno, .seccionDos,
 .seccionTres, .seccionCuatro, .seccionCinco,
@@ -328,7 +327,12 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-areas: "mainP mainP mainP" "imgSeparador imgSeparador imgSeparador" "hr hr hr" "modGustarte modGustarte modGustarte" "img1 img2 img3" "verCarra verMila verAfrica";
+  grid-template-areas: "mainP mainP mainP"
+ "imgSeparador imgSeparador imgSeparador"
+ "hr hr hr"
+ "modGustarte modGustarte modGustarte"
+ "img1 img2 img3"
+ "verCarra verMila verAfrica";
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr); }
 
@@ -344,8 +348,7 @@ hr {
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
   padding-top: 30px;
-  padding-bottom: 30px;
-  height: 1rem; }
+  padding-bottom: 30px; }
 
 .mainP {
   grid-area: mainP;
@@ -356,13 +359,12 @@ hr {
   color: #0f0b0f;
   margin: 15px;
   font-style: italic;
-  height: 1rem; }
+ }
 
 .imgSeparador {
   grid-area: imgSeparador;
   grid-column: 1 / 3;
-  grid-row: 2 / 2;
-  height: 1rem; }
+  grid-row: 2 / 2; }
 
 .modGustarte {
   grid-area: modGustarte;
@@ -374,7 +376,7 @@ hr {
   font-weight: bolder;
   grid-template-columns: 6;
   grid-template-rows: 12;
-  height: 1rem; }
+}
 
 .img1 {
   grid-area: img1;
@@ -427,7 +429,7 @@ hr {
   font-weight: bolder;
   padding: 30px 30px;
   width: 100%;
-  height: 1rem; }
+ }
 
 .regalo {
   font-size: 40px;
@@ -438,13 +440,13 @@ hr {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #0f0b0f;
-  height: 1rem; }
+}
 
 .imgGift {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
-  height: 1rem; }
+}
 
 .producto {
   padding-top: 20px; }
@@ -456,7 +458,7 @@ hr {
   font-weight: bolder;
   text-align: center;
   color: #0f0b0f;
-  height: 1rem; }
+}
 
 .infoGift {
   font-family: "Zen Old Mincho", serif;
@@ -464,7 +466,7 @@ hr {
   font-size: 20px;
   text-align: center;
   color: #0f0b0f;
-  height: 1rem; }
+}
 
 .pago {
   font-family: "Zen Old Mincho", serif;
@@ -474,7 +476,7 @@ hr {
   font-weight: bolder;
   padding-bottom: 30px;
   color: #0f0b0f;
-  height: 1rem; }
+}
 
 .tituloSquad {
   font-size: 40px;
@@ -509,7 +511,7 @@ hr {
   font-weight: bolder;
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 1rem; }
+}
 
 .subtitulo {
   font-family: "Zen Old Mincho", serif;
@@ -627,7 +629,18 @@ hr {
   .mainArmon {
     display: grid;
     align-items: center;
-    grid-template-areas: "mainP" "mainP" "mainP" "imgSeparador" "modGustarte" "modGustarte" "img1" "verCarra" "img2" "verMila" "img3" "verAfrica";
+    grid-template-areas: "mainP"
+ "mainP"
+ "mainP"
+ "imgSeparador"
+ "modGustarte"
+ "modGustarte"
+ "img1"
+ "verCarra"
+ "img2"
+ "verMila"
+ "img3"
+ "verAfrica";
     grid-template-columns: unset; }
   .mainP {
     grid-area: mainP;
@@ -718,7 +731,15 @@ hr {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-areas: "mainP" "imgSeparador" "modGustarte" "img1" "verCarra" "img2" "verMila" "img3" "verAfrica";
+    grid-template-areas: "mainP"
+ "imgSeparador"
+ "modGustarte"
+ "img1"
+ "verCarra"
+ "img2"
+ "verMila"
+ "img3"
+ "verAfrica";
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); }
   .mainP {
@@ -743,7 +764,14 @@ hr {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-areas: "mainP mainP mainP" "mainP mainP mainP" "imgSeparador imgSeparador imgSeparador" "hr hr hr" "modGustarte modGustarte modGustarte" "modGustarte modGustarte modGustarte" "img1 img2 img3" "verCarra verMila verAfrica"; }
+    grid-template-areas: "mainP mainP mainP"
+ "mainP mainP mainP"
+ "imgSeparador imgSeparador imgSeparador"
+ "hr hr hr"
+ "modGustarte modGustarte modGustarte"
+ "modGustarte modGustarte modGustarte"
+ "img1 img2 img3"
+ "verCarra verMila verAfrica"; }
   .mainP {
     grid-area: mainP; }
   .imgSeparador {
