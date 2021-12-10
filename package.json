@@ -267,5 +267,13 @@
     "yargs": "^13.3.2",
     "yallist": "^4.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerimartinez/armonstudio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gerimartinez/armonstudio/issues"
+  },
+  "homepage": "https://github.com/gerimartinez/armonstudio#readme",
   "description": ""
 }

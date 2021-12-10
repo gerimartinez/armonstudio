@@ -5,7 +5,7 @@ h1 {
     font-family: $tipografiaRaleway;
     text-align: center;
     font-weight: bolder;
-    @include titulosSize(50px,30px 30px);
+    @include titulosSize(50px,30px,30px);
    
 }
 
