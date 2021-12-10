@@ -19,8 +19,7 @@ h3 {
   text-align: center;
   font-family: "Zen Old Mincho", serif;
   font-weight: bolder;
-  padding: 20px 20px;
- }
+  padding: 20px 20px; }
 
 h4 {
   font-size: 30px;
@@ -33,8 +32,7 @@ h4 {
   display: flex;
   justify-content: center;
   padding-top: 30px;
-  padding-bottom: 30px;
-   }
+  padding-bottom: 30px; }
 
 h5 {
   font-size: 30px;
@@ -43,8 +41,7 @@ h5 {
   font-weight: bolder;
   padding-top: 50px;
   padding-bottom: 50px;
-  text-align: center;
-   }
+  text-align: center; }
 
 h6 {
   background-color: #f9f3fc;
@@ -54,14 +51,12 @@ h6 {
   font-style: oblique;
   font-weight: bolder;
   text-align: center;
-  padding-top: 30px;
- }
+  padding-top: 30px; }
 
 footer {
   background-color: #f9f3fc;
   text-align: center;
-  list-style-type: none;
-  }
+  list-style-type: none; }
   footer nav ul {
     list-style-type: none; }
     footer nav ul li {
@@ -104,8 +99,7 @@ a:hover {
 .container {
   padding-top: 50px;
   padding-bottom: 50px;
-  display: flex;
- }
+  display: flex; }
 
 .parrafoCarousel {
   font-family: "Zen Old Mincho", serif;
@@ -140,8 +134,7 @@ a:hover {
   display: flex;
   justify-content: center;
   border-radius: 1px solid #996899;
-  padding: 30px 30px;
-  height: 1rem; }
+  padding: 30px 30px; }
 
 .est, .mar, .dist {
   width: 250px;
@@ -169,8 +162,7 @@ a:hover {
   justify-content: center; }
 
 .armonContainer {
-  background-image: linear-gradient(to left, #cb9cdd, #c792d9, #c389d6, #bf7fd2, #bb75ce, #c07bd1, #c582d3, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff);
-   }
+  background-image: linear-gradient(to left, #cb9cdd, #c792d9, #c389d6, #bf7fd2, #bb75ce, #c07bd1, #c582d3, #ca88d6, #d8a0e0, #e6b8ea, #f3d0f4, #ffe8ff); }
 
 .queEsArmon {
   font-size: 20px;
@@ -204,8 +196,7 @@ a:hover {
   padding: 20px 20px;
   margin: 1rem;
   display: flex;
-  justify-content: center;
-   }
+  justify-content: center; }
 
 .imgPrint {
   text-align: center;
@@ -230,8 +221,7 @@ a:hover {
   transition: all 1s; }
 
 header {
-  background-color: #f9f3fc;
-   }
+  background-color: #f9f3fc; }
 
 .bg-geri {
   background-color: #f9f3fc; }
@@ -261,8 +251,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
   padding-top: 30px;
-  padding-bottom: 30px;
-  }
+  padding-bottom: 30px; }
 
 .seccionUno, .seccionDos,
 .seccionTres, .seccionCuatro, .seccionCinco,
@@ -327,12 +316,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-areas: "mainP mainP mainP"
- "imgSeparador imgSeparador imgSeparador"
- "hr hr hr"
- "modGustarte modGustarte modGustarte"
- "img1 img2 img3"
- "verCarra verMila verAfrica";
+  grid-template-areas: "mainP mainP mainP" "imgSeparador imgSeparador imgSeparador" "hr hr hr" "modGustarte modGustarte modGustarte" "img1 img2 img3" "verCarra verMila verAfrica";
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr); }
 
@@ -358,8 +342,7 @@ hr {
   font-family: "Zen Old Mincho", serif;
   color: #0f0b0f;
   margin: 15px;
-  font-style: italic;
- }
+  font-style: italic; }
 
 .imgSeparador {
   grid-area: imgSeparador;
@@ -375,8 +358,7 @@ hr {
   font-size: 30px;
   font-weight: bolder;
   grid-template-columns: 6;
-  grid-template-rows: 12;
-}
+  grid-template-rows: 12; }
 
 .img1 {
   grid-area: img1;
@@ -428,8 +410,7 @@ hr {
   text-align: center;
   font-weight: bolder;
   padding: 30px 30px;
-  width: 100%;
- }
+  width: 100%; }
 
 .regalo {
   font-size: 40px;
@@ -439,14 +420,12 @@ hr {
   font-weight: bolder;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #0f0b0f;
-}
+  color: #0f0b0f; }
 
 .imgGift {
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 .producto {
   padding-top: 20px; }
@@ -457,16 +436,14 @@ hr {
   font-style: italic;
   font-weight: bolder;
   text-align: center;
-  color: #0f0b0f;
-}
+  color: #0f0b0f; }
 
 .infoGift {
   font-family: "Zen Old Mincho", serif;
   font-style: italic;
   font-size: 20px;
   text-align: center;
-  color: #0f0b0f;
-}
+  color: #0f0b0f; }
 
 .pago {
   font-family: "Zen Old Mincho", serif;
@@ -475,8 +452,7 @@ hr {
   text-align: center;
   font-weight: bolder;
   padding-bottom: 30px;
-  color: #0f0b0f;
-}
+  color: #0f0b0f; }
 
 .tituloSquad {
   font-size: 40px;
@@ -510,8 +486,7 @@ hr {
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
   padding-top: 30px;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 .subtitulo {
   font-family: "Zen Old Mincho", serif;
@@ -629,18 +604,7 @@ hr {
   .mainArmon {
     display: grid;
     align-items: center;
-    grid-template-areas: "mainP"
- "mainP"
- "mainP"
- "imgSeparador"
- "modGustarte"
- "modGustarte"
- "img1"
- "verCarra"
- "img2"
- "verMila"
- "img3"
- "verAfrica";
+    grid-template-areas: "mainP" "mainP" "mainP" "imgSeparador" "modGustarte" "modGustarte" "img1" "verCarra" "img2" "verMila" "img3" "verAfrica";
     grid-template-columns: unset; }
   .mainP {
     grid-area: mainP;
@@ -731,15 +695,7 @@ hr {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-areas: "mainP"
- "imgSeparador"
- "modGustarte"
- "img1"
- "verCarra"
- "img2"
- "verMila"
- "img3"
- "verAfrica";
+    grid-template-areas: "mainP" "imgSeparador" "modGustarte" "img1" "verCarra" "img2" "verMila" "img3" "verAfrica";
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); }
   .mainP {
@@ -764,14 +720,7 @@ hr {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-areas: "mainP mainP mainP"
- "mainP mainP mainP"
- "imgSeparador imgSeparador imgSeparador"
- "hr hr hr"
- "modGustarte modGustarte modGustarte"
- "modGustarte modGustarte modGustarte"
- "img1 img2 img3"
- "verCarra verMila verAfrica"; }
+    grid-template-areas: "mainP mainP mainP" "mainP mainP mainP" "imgSeparador imgSeparador imgSeparador" "hr hr hr" "modGustarte modGustarte modGustarte" "modGustarte modGustarte modGustarte" "img1 img2 img3" "verCarra verMila verAfrica"; }
   .mainP {
     grid-area: mainP; }
   .imgSeparador {

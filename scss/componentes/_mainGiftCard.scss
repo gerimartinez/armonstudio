@@ -6,7 +6,6 @@
     font-weight: bolder;
     padding: 30px 30px;
     width: 100%;
-    height: 1rem;
 }
 .regalo {
     font-size: 40px;
@@ -17,13 +16,11 @@
     padding-top: 20px;
     padding-bottom: 20px;
     color: nth($colores,4);
-    height: 1rem;
 }
 .imgGift {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-    height: 1rem;
 }
 .producto {
     padding-top: 20px;
@@ -36,7 +33,6 @@
     font-weight: bolder;
     text-align: center;
     color: nth($colores,4);
-    height: 1rem;
 }
 
 .infoGift {
@@ -45,7 +41,6 @@
  font-size: 20px;
  text-align: center;
  color: nth($colores,4);
- height: 1rem;
 }
 .pago {
  font-family: $tipografiaZen;
@@ -55,7 +50,6 @@
  font-weight: bolder;
  padding-bottom: 30px;
  color: nth($colores,4);
- height: 1rem;
 }
 .tituloSquad {
     font-size: 40px;
