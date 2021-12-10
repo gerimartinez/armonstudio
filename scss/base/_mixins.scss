@@ -1,4 +1,5 @@
-@mixin titulosSize($width, $padding) {
+@mixin titulosSize($width, $padding, $padding2) {
     font-size: $width;
-    padding: $padding;
+    padding-top: $padding;
+    padding-bottom: $padding2;
 }
