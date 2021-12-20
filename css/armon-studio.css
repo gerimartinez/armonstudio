@@ -65,10 +65,12 @@ footer {
       color: #996899; }
       footer nav ul li a {
         font-size: 20px;
-        color: #996899;
+        color: #0f0b0f;
         font-family: "Zen Old Mincho", serif;
         display: inline-block;
         text-align: center; }
+      footer nav ul li .envios {
+        color: nth whitesmoke, #9550A6, #996899, #0f0b0f, #3e2d4b, #f9f3fc, #e0d8d8, #6a2d83, #4e1c5cd3, 6; }
 
 .iconsSocial {
   width: 15%;
