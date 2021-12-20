@@ -61,24 +61,19 @@ footer {
   list-style-type: none; }
   footer nav ul {
     list-style-type: none; }
-    footer nav ul li {
-      color: #996899; }
-      footer nav ul li a {
-        font-size: 20px;
-        color: #0f0b0f;
-        font-family: "Zen Old Mincho", serif;
-        display: inline-block;
-        text-align: center; }
-      footer nav ul li .envios {
-        color: nth whitesmoke, #9550A6, #996899, #0f0b0f, #3e2d4b, #f9f3fc, #e0d8d8, #6a2d83, #4e1c5cd3, 6; }
-
-.iconsSocial {
-  width: 15%;
-  background-color: #f9f3fc; }
+    footer nav ul li a {
+      font-size: 40px;
+      color: #3e2d4b;
+      font-family: "Zen Old Mincho", serif;
+      display: inline-block;
+      text-align: center; }
+    footer nav ul li p {
+      color: nth whitesmoke, #9550A6, #996899, #0f0b0f, #3e2d4b, #f9f3fc, #e0d8d8, #6a2d83, #4e1c5cd3, 6; }
 
 .followUs {
   color: #0f0b0f;
-  font-weight: bolder; }
+  font-weight: bolder;
+  font-size: 15px; }
 
 .info, .infoFooter {
   color: #996899;
@@ -99,6 +94,16 @@ a:hover {
   color: #9550A6;
   font-weight: bolder;
   transition: all 0.5s; }
+
+.correo, .info {
+  font-size: 20px;
+  color: #996899;
+  font-family: "Zen Old Mincho", serif;
+  display: inline-block;
+  text-align: center; }
+
+.envios {
+  color: nth whitesmoke, #9550A6, #996899, #0f0b0f, #3e2d4b, #f9f3fc, #e0d8d8, #6a2d83, #4e1c5cd3, 6; }
 
 .container {
   padding-top: 50px;

@@ -7,15 +7,15 @@ footer {
         ul {
             list-style-type: none;
             li {
-                color: nth($colores, 3);
+               
                 a{
-                 font-size: 20px;
-                 color: nth($colores, 4);
+                 font-size: 40px;
+                 color: nth($colores, 5);
                  font-family: $tipografiaZen;
                  display: inline-block;
                  text-align: center;
                 }
-                .envios {
+                p {
                     color: nth ($colores, 6)
                 }
             }
@@ -23,14 +23,11 @@ footer {
     }
 }
 
-.iconsSocial {
-    width: 15%;
-    background-color: nth($colores, 6);
-}
 
 .followUs {
     color: nth($colores, 4);
     font-weight: bolder;
+    font-size: 15px;
 }
 
 .info, .infoFooter {
@@ -54,4 +51,15 @@ a:hover {
     font-weight: bolder;
     transition: all 0.5s;
 
+}
+.correo, .info {
+    font-size: 20px;
+    color: nth($colores, 3);
+   font-family: $tipografiaZen;
+   display: inline-block;
+    text-align: center;
+}
+
+.envios {
+    color: nth ($colores, 6);
 }
